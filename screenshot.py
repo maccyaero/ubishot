@@ -1,6 +1,7 @@
-import os,sys
+import os,sys,tkinter,gui
 
 command = "defaults write com.apple.screencapture location " #Shell Coomad to change default screenshot location
+
 
 while True:
     directory = input("Enter the directory: ")
